@@ -1,0 +1,58 @@
+@import "../variables.scss";
+
+.address {
+  margin-top: 8rem;
+  color: $blc;
+
+  &__container {
+    display: flex;
+
+    .left {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .wrap {
+        width: 50%;
+
+        h1 {
+          font-size: 3rem;
+          margin-bottom: 2rem;
+        }
+
+        h3 {
+          font-size: 1.3rem;
+          margin-bottom: 1rem;
+        }
+        p {
+          line-height: 29px;
+          margin-bottom: 1rem;
+        }
+        button {
+          padding: 0.8rem 1.5rem;
+          border: 3px solid $blc;
+          color: $blc;
+          font-size: 18px;
+          font-weight: 800px;
+          background-color: white;
+          transition: 0.4s;
+
+          &:hover {
+           transform: scale(1.07);
+          }
+        }
+      }
+    }
+
+    .right {
+      flex: 1;
+
+      .carousel-root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

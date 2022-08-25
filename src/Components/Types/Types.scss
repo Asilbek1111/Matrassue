@@ -1,0 +1,40 @@
+@import "../variables.scss";
+
+.types {
+  border-bottom: 1px solid $blc;
+  margin-bottom: 1rem;
+  &__container {
+    width: fit-content;
+    margin: 0 auto;
+
+    ul {
+      display: flex;
+      padding: 10px;
+      list-style: none;
+      a {
+        text-decoration: none;
+        // color: black;
+        margin-right: 3rem;
+        border-radius: 5px;
+        padding: 5px;
+        color: $blc;
+        transition: 0.3s;
+        &:hover {
+          background-color: $blc;
+          color: white;
+        }
+        li {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+.active {
+  background-color: rgb(202, 194, 194);
+  color: white;
+}
+.tabs1{
+    width: fit-content;
+    margin: 0 auto;
+}

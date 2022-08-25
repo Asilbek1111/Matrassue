@@ -1,0 +1,33 @@
+@import '../variables.scss';
+
+.numbers{
+    .another{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-size: 3rem;
+        text-align: center;
+    }
+    &__container{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        .card{
+            padding: 1rem;
+            width: 30%;
+            .num{
+                h1{
+                    font-size: 5rem;
+                    color: $blc;
+                    text-align: center;
+                }
+            }
+            .des{
+                p{
+                    text-align: center;
+                    color: $blc;
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+}

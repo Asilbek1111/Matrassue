@@ -1,0 +1,43 @@
+@import "../variables.scss";
+
+.why {
+    margin-top: 8rem;
+    color:$blc;
+    h1{
+        text-align: center;
+        margin-bottom: 4rem;
+        font-size: 3rem;
+    }
+  &__container {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 3rem;
+    .card {
+      width: 300px;
+      border: 2px solid $blc;
+      border-radius: 5px;
+      .c-top {
+        width: fit-content;
+        img {
+          width: 100%;
+        }
+      }
+      .c-bottom{
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        h3{
+            margin-bottom: 1rem;
+        }
+        p{
+            margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}

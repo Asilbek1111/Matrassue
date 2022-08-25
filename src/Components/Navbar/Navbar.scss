@@ -1,0 +1,82 @@
+@import "../variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Poppins:wght@300&family=Sail&display=swap");
+.navbar {
+  background-color: $mainc;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 1rem;
+    justify-content: space-between;
+    .nav-left {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h3 {
+        font-family: "Sail", cursive;
+        font-size: 25px;
+        color: $blc;
+      }
+    }
+
+    .nav-right {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .right-top {
+        ul {
+          list-style: none;
+          display: flex;
+          gap: 1.8rem;
+
+          li {
+            border-bottom: 2px solid $mainc;
+            transition: 0.4s;
+            &:hover {
+              border-bottom: 2px solid $blc;
+            }
+            a {
+              text-decoration: none;
+              color: $blc;
+            }
+          }
+        }
+      }
+
+      .right-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+
+        p {
+          color: $blc;
+          font-size: 19px;
+        }
+        img {
+          margin-right: 1rem;
+        }
+
+        button {
+          margin-left: 1rem;
+          padding: 0.8rem 1.5rem;
+          border: 3px solid $blc;
+          color: $blc;
+          font-size: 18px;
+          font-weight: 800px;
+          background-color: white;
+          transition: 0.4s;
+
+          &:hover {
+            background-color: $blc;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

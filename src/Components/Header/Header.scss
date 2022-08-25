@@ -1,0 +1,49 @@
+
+@import "../variables.scss";
+
+@mixin common {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: $mainc;
+  &__container {
+    padding: 4rem 6rem;
+    margin: 0 auto;
+    @include common();
+    .left {
+      flex: 1;
+      padding-top: 0;
+
+      button {
+        margin-left: 1rem;
+        padding: 0.8rem 1.5rem;
+        border: 3px solid $blc;
+        color: $blc;
+        font-size: 18px;
+        font-weight: 800px;
+        background-color: white;
+        transition: 0.4s;
+        margin-top: 3rem;
+
+        &:hover {
+          background-color: $blc;
+          color: white;
+        }
+      }
+      h1 {
+        font-size: 90px;
+        color: $blc;
+      }
+    }
+
+    .right {
+      display: none;
+      flex: 1;
+      @include common();
+      padding-top: 4rem;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import "../variables.scss";
+
+.footer {
+  padding: 0.5rem;
+  &__container {
+    width: 80%;
+    margin: 0 auto;
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      border-bottom: 1px solid $blc;
+
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        li {
+          a {
+            text-decoration: none;
+            color: $blc;
+          }
+        }
+      }
+    }
+
+    .bottom {
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .mask{
+        cursor: pointer;
+      }
+    }
+  }
+}

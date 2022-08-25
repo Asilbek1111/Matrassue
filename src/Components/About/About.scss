@@ -1,0 +1,67 @@
+@import "../variables.scss";
+
+.about {
+  margin-top: 8rem;
+  color: $blc;
+  font-weight: 600;
+  &__container {
+    display: flex;
+
+    .left {
+      flex: 1;
+      padding-left: 5rem;
+      padding-right: 2rem;
+      h1 {
+        margin-bottom: 3rem;
+        font-size: 45px;
+      }
+      p {
+        margin-bottom: 2rem;
+      }
+      .pink {
+        background-color: $mainc;
+        padding: 2rem;
+        border-radius: 7px;
+        width: 100%;
+        margin-bottom: 7rem;
+
+        ul{
+            li{
+                line-height: 31px;
+            }
+        }
+      }
+      img {
+        width: "650";
+        height: "350";
+      }
+    }
+
+    .right {
+      flex: 1;
+      padding-left: 2rem;
+      padding-right: 5rem;
+
+      .frame {
+        margin-bottom: 8rem;
+      }
+      p {
+        margin-bottom: 2rem;
+      }
+      .pink {
+        background-color: $mainc;
+        padding: 2rem;
+        width: 100%;
+        border-radius: 7px;
+        margin-bottom: 2rem;
+
+        ul{
+            li{
+                line-height: 31px;
+
+            }
+        }
+      }
+    }
+  }
+}
