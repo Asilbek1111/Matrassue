@@ -18,12 +18,6 @@ import { useContext } from "react";
 import { AuthContext } from "./Context/Auth";
 
 function App() {
-  //   const token = false;
-  //   if (token){
-  // return <AdminP />
-  //   }else{
-  //     return <Home />
-  //   }
   const {token} = useContext(AuthContext);
 if(token){
       return <AdminP />

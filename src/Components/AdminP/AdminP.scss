@@ -2,10 +2,26 @@
 
 .admin {
   margin-bottom: 3rem;
+  overflow-y: visible;
   .bcontainer {
+    .two {
+      display: flex;
+      flex-direction: row;
+      .content {
+        margin-left: 20rem;
+        ul {
+          list-style: none;
+          li {
+            font-size: 20px;
+          }
+        }
+      }
+    }
     nav {
       background-color: $blc;
       display: flex;
+      position: sticky;
+      top: 0;
 
       .nav-container {
         display: flex;
@@ -49,13 +65,14 @@
       background-color: $blc;
       width: fit-content;
       height: 100vh;
+      position: fixed;
+
       &__container {
         ul {
           list-style: none;
 
           li {
-            padding: 1rem 0;
-            padding: 1rem 2rem;
+            cursor: pointer;
 
             &:hover {
               background-color: $mainc;
@@ -68,6 +85,7 @@
               align-items: center;
               color: white;
               display: flex;
+              padding: 1.5rem 3.5rem;
               img {
                 width: 20px;
                 height: 20px;

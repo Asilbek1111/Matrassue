@@ -8,7 +8,7 @@ import Zoom from "react-reveal/Zoom";
 import LightSpeed from "react-reveal/LightSpeed";
 import { MyContext } from "../../Context/Context";
 const Navbar = () => {
-  const {setOpen, handleOpen, handleClose} = useContext(MyContext)
+  const { setOpen, handleOpen, handleClose } = useContext(MyContext);
   return (
     <div className="navbar">
       <div className="container">
@@ -37,6 +37,11 @@ const Navbar = () => {
                 <li>
                   <a href="#contact">Aloqa</a>
                 </li>
+                <li>
+                  <Link to="/admin">
+                    <h3>Admin Panel</h3>
+                  </Link>
+                </li>
               </ul>
             </Roll>
           </div>
@@ -44,7 +49,9 @@ const Navbar = () => {
             <img src={Call} alt="" />
             <p>+998 90 123 45 67</p>
             <LightSpeed>
-              <button className="nav-btn" onClick={handleOpen}>Buyurtma berish</button>
+              <button className="nav-btn" onClick={handleOpen}>
+                Buyurtma berish
+              </button>
             </LightSpeed>
           </div>
         </div>
