@@ -1,0 +1,75 @@
+.commonM {
+  padding: 1rem 4rem;
+  text-align: center;
+  border: 2px solid #01384D;
+  color: #01384D;
+}
+
+.sel {
+  width: 89%;
+  text-align: center;
+}
+
+.commonB {
+  padding: 13px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.commonA {
+  padding: 14px 20px;
+  font-size: 20px;
+  width: 57%;
+  text-align: center;
+}
+
+#hb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.buyurtma {
+  text-align: center;
+}
+
+.MuiBox-root {
+  color: #01384D;
+}
+
+option {
+  text-align: center;
+}
+
+.headnum {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+}
+
+.headnumd {
+  position: relative;
+}
+
+.sbb {
+  padding: 14px 20px;
+  font-size: 20px;
+  width: 90%;
+  background-color: #01384D;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sbb:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=Modal.css.map */

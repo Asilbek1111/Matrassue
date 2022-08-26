@@ -1,12 +1,11 @@
 import React from "react";
-import Rec from '../../img/rec.png'
-import './About.scss';
+import Rec from "../../img/rec.png";
+import "./About.scss";
 import Fade from "react-reveal/Fade";
-
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <Fade left cascade>
         <div className="about__container">
           <div className="left">

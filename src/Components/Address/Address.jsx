@@ -8,7 +8,7 @@ import Slide from "react-reveal/Slide";
 
 const Address = () => {
   return (
-    <div className="address">
+    <div className="address" id="address">
       <Slide top cascade>
         <div className="address__container">
           <div className="left">

@@ -1,0 +1,84 @@
+@import "../variables.scss";
+
+.admin {
+  margin-bottom: 3rem;
+  .bcontainer {
+    nav {
+      background-color: $blc;
+      display: flex;
+
+      .nav-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 1rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        .nlogo {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          h3 {
+            color: white;
+            font-family: "Sail", cursive;
+            font-size: 25px;
+            margin-left: 10px;
+          }
+          img {
+            width: 30px;
+            height: 30px;
+          }
+        }
+        .navrest {
+          color: white;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 3rem;
+
+          input {
+            padding: 0.7rem;
+            border-radius: 10px;
+            outline: none;
+          }
+        }
+      }
+    }
+    .sidebar {
+      background-color: $blc;
+      width: fit-content;
+      height: 100vh;
+      &__container {
+        ul {
+          list-style: none;
+
+          li {
+            padding: 1rem 0;
+            padding: 1rem 2rem;
+
+            &:hover {
+              background-color: $mainc;
+            }
+            &:focus {
+              background-color: $mainc;
+            }
+            a {
+              text-decoration: none;
+              align-items: center;
+              color: white;
+              display: flex;
+              img {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+              }
+              h3 {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

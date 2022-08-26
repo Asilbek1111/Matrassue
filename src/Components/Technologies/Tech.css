@@ -1,0 +1,45 @@
+.tech {
+  color: #01384D;
+}
+
+.tech h1 {
+  text-align: center;
+  margin-top: 9rem;
+  margin-bottom: 6rem;
+  font-size: 40px;
+}
+
+.tech__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+.tech__container .t-card {
+  width: 400px;
+}
+
+.tech__container .t-card .title {
+  margin-bottom: 1rem;
+}
+
+.tech__container .t-card .title h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.tech__container .t-card .btm {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.tech__container .t-card .frame iframe {
+  border-radius: 5px;
+}
+/*# sourceMappingURL=Tech.css.map */

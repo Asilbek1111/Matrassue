@@ -1,0 +1,65 @@
+.header {
+  background-color: #eabf9f;
+}
+
+.header__container {
+  padding: 4rem 6rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__container .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 0;
+}
+
+.header__container .left button {
+  margin-left: 1rem;
+  padding: 0.8rem 1.5rem;
+  border: 3px solid #01384D;
+  color: #01384D;
+  font-size: 18px;
+  font-weight: 800px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-top: 3rem;
+}
+
+.header__container .left button:hover {
+  background-color: #01384D;
+  color: white;
+}
+
+.header__container .left h1 {
+  font-size: 90px;
+  color: #01384D;
+}
+
+.header__container .right {
+  display: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 4rem;
+}
+/*# sourceMappingURL=Header.css.map */

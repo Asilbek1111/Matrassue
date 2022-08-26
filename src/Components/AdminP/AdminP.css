@@ -1,0 +1,110 @@
+.admin {
+  margin-bottom: 3rem;
+}
+
+.admin .bcontainer nav {
+  background-color: #01384D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.admin .bcontainer nav .nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.admin .bcontainer nav .nav-container .nlogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin .bcontainer nav .nav-container .nlogo h3 {
+  color: white;
+  font-family: "Sail", cursive;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.admin .bcontainer nav .nav-container .nlogo img {
+  width: 30px;
+  height: 30px;
+}
+
+.admin .bcontainer nav .nav-container .navrest {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+
+.admin .bcontainer nav .nav-container .navrest input {
+  padding: 0.7rem;
+  border-radius: 10px;
+  outline: none;
+}
+
+.admin .bcontainer .sidebar {
+  background-color: #01384D;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100vh;
+}
+
+.admin .bcontainer .sidebar__container ul {
+  list-style: none;
+}
+
+.admin .bcontainer .sidebar__container ul li {
+  padding: 1rem 0;
+  padding: 1rem 2rem;
+}
+
+.admin .bcontainer .sidebar__container ul li:hover {
+  background-color: #eabf9f;
+}
+
+.admin .bcontainer .sidebar__container ul li:focus {
+  background-color: #eabf9f;
+}
+
+.admin .bcontainer .sidebar__container ul li a {
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.admin .bcontainer .sidebar__container ul li a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=AdminP.css.map */

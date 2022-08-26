@@ -1,0 +1,64 @@
+.why {
+  margin-top: 8rem;
+  color: #01384D;
+}
+
+.why h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 3rem;
+}
+
+.why__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+.why__container .card {
+  width: 300px;
+  border: 2px solid #01384D;
+  border-radius: 5px;
+}
+
+.why__container .card .c-top {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.why__container .card .c-top img {
+  width: 100%;
+}
+
+.why__container .card .c-bottom {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.why__container .card .c-bottom h3 {
+  margin-bottom: 1rem;
+}
+
+.why__container .card .c-bottom p {
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=Why.css.map */

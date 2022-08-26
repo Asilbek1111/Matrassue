@@ -1,0 +1,69 @@
+@import "../variables.scss";
+
+.commonM {
+  padding: 1rem 4rem;
+  text-align: center;
+  border: 2px solid $blc;
+  color: $blc;
+}
+
+.sel {
+  width: 89%;
+  //   padding: 1rem 7rem;
+  text-align: center;
+}
+
+.commonB {
+  padding: 13px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.commonA {
+  padding: 14px 20px;
+  font-size: 20px;
+  width: 57%;
+  text-align: center;
+}
+
+#hb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.buyurtma {
+  text-align: center;
+}
+
+.MuiBox-root {
+  color: $blc;
+}
+
+option {
+  text-align: center;
+}
+
+.headnum {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+}
+
+.headnumd {
+  position: relative;
+}
+
+.sbb {
+  padding: 14px 20px;
+  font-size: 20px;
+  width: 90%;
+  background-color: $blc;
+  color: white;
+transition: 0.3s;
+  &:hover{
+    opacity: 0.8;
+  }
+}

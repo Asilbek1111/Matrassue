@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Navbar.scss";
 import Logo from "../../img/logo.png";
 import Call from "../../img/Call.png";
@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 import Roll from "react-reveal/Roll";
 import Zoom from "react-reveal/Zoom";
 import LightSpeed from "react-reveal/LightSpeed";
+import { MyContext } from "../../Context/Context";
 const Navbar = () => {
+  const {setOpen, handleOpen, handleClose} = useContext(MyContext)
   return (
     <div className="navbar">
       <div className="container">
@@ -21,19 +23,19 @@ const Navbar = () => {
             <Roll cascade>
               <ul>
                 <li>
-                  <Link to="#">Katalog</Link>
+                  <a href="#katalog">Katalog</a>
                 </li>
                 <li>
-                  <Link to="#">Aksiya</Link>
+                  <a href="#katalog">Aksiya</a>
                 </li>
                 <li>
-                  <Link to="#">Biz haqimizda</Link>
+                  <a href="#about">Biz haqimizda</a>
                 </li>
                 <li>
-                  <Link to="#">Manzilimiz</Link>
+                  <a href="#address">Manzilimiz</a>
                 </li>
                 <li>
-                  <Link to="#">Aloqa</Link>
+                  <a href="#contact">Aloqa</a>
                 </li>
               </ul>
             </Roll>
@@ -42,7 +44,7 @@ const Navbar = () => {
             <img src={Call} alt="" />
             <p>+998 90 123 45 67</p>
             <LightSpeed>
-              <button className="nav-btn">Buyurtma berish</button>
+              <button className="nav-btn" onClick={handleOpen}>Buyurtma berish</button>
             </LightSpeed>
           </div>
         </div>
