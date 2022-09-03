@@ -6,10 +6,13 @@ import Trash from "../../img/trash.png";
 const ProductAdd = () => {
   const [items, setItems] = useState([]);
 
-  fetch("http://130.185.119.101:3000/articles/")
-    .then((response) => response.json())
-    .then((result) => setItems(result))
-    .catch((error) => console.log("error", error));
+  useEffect(() => {
+    
+    fetch("http://130.185.119.101:3000/articles/")
+      .then((response) => response.json())
+      .then((result) => setItems(result))
+      .catch((error) => console.log("error", error));
+  }, [items]);
   return (
     <div className="add">
       <div className="table">
