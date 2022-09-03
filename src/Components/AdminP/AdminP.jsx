@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Logo from "../../img/logo.png";
 import Matrassue from "../../img/Matrassue.png";
 import Account from "../../img/account.png";
@@ -10,8 +10,12 @@ import Blocks from "../../img/v10.png";
 import Settings from "../../img/v11.png";
 import Cart from "../../img/v12.png";
 import Location from "../../img/v13.png";
-
+import ProductAdd from "../ProductAdd/ProductAdd";
+import { MyContext } from "../../Context/Context";
+import AddModal from "../AddModal/AddModal";
 const AdminP = () => {
+  const { modalIsOpen, setIsOpen, openModal, closeModal } =
+    useContext(MyContext);
   return (
     <div className="admin">
       <div className="bcontainer">
@@ -73,7 +77,6 @@ const AdminP = () => {
             </div>
           </div>
           <div className="content">
-            <h1>Hellooooo</h1>
             <Routes>
               <Route path="/buyurtmalar">
                 <Route
@@ -128,12 +131,11 @@ const AdminP = () => {
                   index
                   element={
                     <>
-                      <ul>
-                        <li>row4</li>
-                        <li>row4</li>
-                        <li>row4</li>
-                        <li>row4</li>
-                      </ul>
+                      <ProductAdd />
+                      <AddModal />
+                      <button className="addbtn" onClick={openModal}>
+                        Qo'shish
+                      </button>
                     </>
                   }
                 />
