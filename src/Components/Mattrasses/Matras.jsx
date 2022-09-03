@@ -8,7 +8,7 @@ const Matras = () => {
   const [matras, setMatras] = useState([]);
 
   useEffect(() => {
-    fetch("https://130.185.119.101:3000/articles")
+    fetch("http://130.185.119.101:3000/articles")
       .then((res) => res.json())
       .then((data) => setMatras(data));
   }, [matras]);
